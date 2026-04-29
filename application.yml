@@ -1,13 +1,3 @@
-spring:
-  application:
-    name: items
-
-  profiles:
-    active: dev
-
-  config:
-    import: "optional:configserver:http://localhost:8090"
-
 
 eureka:
   instance:

@@ -10,9 +10,6 @@ spring:
               enabled: true
 
 
-server:
-  port: 9090
-
 management:
   endpoint:
     gateway:
@@ -23,3 +20,6 @@ info:
     name: "gateway-server"
     description: "edge server to my ecommerce microservice network"
 
+
+server:
+  port: 9090
